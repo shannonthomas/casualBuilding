@@ -18,8 +18,8 @@ struct Style {
     static var userInputTextBodyColor = UIColor(red:0.27, green:0.27, blue:0.27, alpha:1.0) //darkish
     
     //static var defaulTextColor = UIColor(red:0.18, green:0.18, blue:0.18, alpha:1.0)
-    */
-   
+    
+   */
     
     //MARK: Color Schemes n' Themes
     

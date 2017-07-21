@@ -12,7 +12,7 @@
         <!--About the Developer-->
         <scene sceneID="Z7C-4a-Vpm">
             <objects>
-                <viewController title="About the Developer" id="wth-xM-nY4" sceneMemberID="viewController">
+                <viewController title="About the Developer" id="wth-xM-nY4" customClass="aboutTheDevViewController" customModule="tryingcocoa" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="lb3-Go-13S"/>
                         <viewControllerLayoutGuide type="bottom" id="aT2-2d-Ubk"/>
