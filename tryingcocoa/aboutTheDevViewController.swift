@@ -9,6 +9,9 @@
 import UIKit
 
 class aboutTheDevViewController: UIViewController {
+    
+    @IBOutlet weak var aboutDevDescriptionTextView: UITextView!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -11,20 +11,6 @@ import UIKit
 class newHabitScreenViewController: UIViewController {
     
     //MARK:
-
-    @IBOutlet weak var makeButton: UIButton!
-    
-    @IBOutlet weak var breakButton: UIButton!
-    
-    @IBOutlet weak var cancelButton: UIButton!
-    
-    @IBOutlet weak var dailyReminderButton: UIButton!
-    @IBOutlet weak var weeklyReminderButton: UIButton!
-    @IBOutlet weak var monthlyReminderButton: UIButton!
-    @IBOutlet weak var doOrDontDoLabel: UILabel!
-  
-    @IBOutlet weak var timesDoHabit: UITextField!
-    
     
     
     

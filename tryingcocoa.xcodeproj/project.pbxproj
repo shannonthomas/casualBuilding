@@ -23,8 +23,6 @@
 		8ABD2FE21F1EFFFE0018DD96 /* SettingsPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABD2FDF1F1EFFFE0018DD96 /* SettingsPageViewController.swift */; };
 		8ABD2FE71F1F10180018DD96 /* settings+appearanceScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ABD2FE51F1F10180018DD96 /* settings+appearanceScreen.storyboard */; };
 		8ABD2FE81F1F10180018DD96 /* settings+AppearanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABD2FE61F1F10180018DD96 /* settings+AppearanceViewController.swift */; };
-		8ABE78BB1F2167EC00075C6A /* TabView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8ABE78BA1F2167EC00075C6A /* TabView.xib */; };
-		8ABE78BF1F216A5500075C6A /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABE78BE1F216A5500075C6A /* MessageView.swift */; };
 		8ACDC09A1F21BC5E007A24A4 /* AccessibleMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACDC07A1F21BC5E007A24A4 /* AccessibleMessage.swift */; };
 		8ACDC09B1F21BC5E007A24A4 /* Animator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACDC07B1F21BC5E007A24A4 /* Animator.swift */; };
 		8ACDC09C1F21BC5E007A24A4 /* Array+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACDC07C1F21BC5E007A24A4 /* Array+Utils.swift */; };
@@ -80,8 +78,6 @@
 		8ABD2FDF1F1EFFFE0018DD96 /* SettingsPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsPageViewController.swift; path = ../SettingsPageViewController.swift; sourceTree = "<group>"; };
 		8ABD2FE51F1F10180018DD96 /* settings+appearanceScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "settings+appearanceScreen.storyboard"; sourceTree = "<group>"; };
 		8ABD2FE61F1F10180018DD96 /* settings+AppearanceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "settings+AppearanceViewController.swift"; sourceTree = "<group>"; };
-		8ABE78BA1F2167EC00075C6A /* TabView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabView.xib; sourceTree = "<group>"; };
-		8ABE78BE1F216A5500075C6A /* MessageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
 		8ACDC07A1F21BC5E007A24A4 /* AccessibleMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessibleMessage.swift; sourceTree = "<group>"; };
 		8ACDC07B1F21BC5E007A24A4 /* Animator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animator.swift; sourceTree = "<group>"; };
 		8ACDC07C1F21BC5E007A24A4 /* Array+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Utils.swift"; sourceTree = "<group>"; };
@@ -165,8 +161,6 @@
 				8ACDC0B91F21BD9C007A24A4 /* aboutTheDevViewController.swift */,
 				8ACDC0791F21BC5E007A24A4 /* SwiftMessages */,
 				8A706F5E1F1F163F0014CB0A /* welcomeScreenViewController.swift */,
-				8ABE78BA1F2167EC00075C6A /* TabView.xib */,
-				8ABE78BE1F216A5500075C6A /* MessageView.swift */,
 				8ABE78C01F216A7000075C6A /* SwiftMessages */,
 				8ABD2FDD1F1EFFFE0018DD96 /* newHabitScreenViewController.swift */,
 				8ABD2FD91F1EF0AE0018DD96 /* newHabitScreenDraft.storyboard */,
@@ -321,7 +315,6 @@
 			files = (
 				8ABD2FDA1F1EF0AE0018DD96 /* newHabitScreenDraft.storyboard in Resources */,
 				8A706F5B1F1F15230014CB0A /* home.storyboard in Resources */,
-				8ABE78BB1F2167EC00075C6A /* TabView.xib in Resources */,
 				8ACDC0AD1F21BC5E007A24A4 /* Images.xcassets in Resources */,
 				8ACDC0BA1F21BD9C007A24A4 /* aboutTheDev.storyboard in Resources */,
 				8ACDC0AE1F21BC5E007A24A4 /* MessageView.xib in Resources */,
@@ -418,7 +411,6 @@
 				8ACDC0BB1F21BD9C007A24A4 /* aboutTheDevViewController.swift in Sources */,
 				8ACDC0A61F21BC5E007A24A4 /* NSBundle+Utils.swift in Sources */,
 				8ACDC0A51F21BC5E007A24A4 /* MessageView.swift in Sources */,
-				8ABE78BF1F216A5500075C6A /* MessageView.swift in Sources */,
 				8ABD2FE81F1F10180018DD96 /* settings+AppearanceViewController.swift in Sources */,
 				8ACDC0A11F21BC5E007A24A4 /* Identifiable.swift in Sources */,
 				8A706F5F1F1F163F0014CB0A /* welcomeScreenViewController.swift in Sources */,

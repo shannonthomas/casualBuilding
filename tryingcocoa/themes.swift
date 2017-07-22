@@ -9,7 +9,7 @@
 import UIKit
 
 struct Style {
-    /*static let themes = ["Dark theme", "Light theme", "Others"]
+    /* static let themes = ["Dark theme", "Light theme", "Others"]
     
     static var headerFontColor = UIColor(red:0.11, green:0.11, blue:0.11, alpha:1.0) //blackish
     static var textFieldBackgroundColor = UIColor(red:0.95, green:0.95, blue:0.95, alpha: 0.75) //whitish
