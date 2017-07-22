@@ -1,21 +1,18 @@
 //
-//  newHabitScreenViewController.swift
+//  aboutTheDevViewController.swift
 //  
 //
-//  Created by Developer on 7/18/17.
+//  Created by Developer on 7/20/17.
 //
 //
 
 import UIKit
 
-class newHabitScreenViewController: UIViewController {
+class aboutTheDevViewController: UIViewController {
     
-    //MARK:
+    @IBOutlet weak var aboutDevDescriptionTextView: UITextView!
     
-    
-    
-    
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
 

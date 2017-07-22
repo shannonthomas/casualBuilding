@@ -1,21 +1,15 @@
 //
-//  newHabitScreenViewController.swift
+//  aboutTheDevViewController.swift
 //  
 //
-//  Created by Developer on 7/18/17.
+//  Created by Developer on 7/20/17.
 //
 //
 
 import UIKit
 
-class newHabitScreenViewController: UIViewController {
-    
-    //MARK:
-    
-    
-    
-    
-    
+class aboutTheDevViewController: UIViewController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
 

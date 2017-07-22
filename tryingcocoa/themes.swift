@@ -9,7 +9,7 @@
 import UIKit
 
 struct Style {
-    /*static let themes = ["Dark theme", "Light theme", "Others"]
+    /* static let themes = ["Dark theme", "Light theme", "Others"]
     
     static var headerFontColor = UIColor(red:0.11, green:0.11, blue:0.11, alpha:1.0) //blackish
     static var textFieldBackgroundColor = UIColor(red:0.95, green:0.95, blue:0.95, alpha: 0.75) //whitish
@@ -18,8 +18,8 @@ struct Style {
     static var userInputTextBodyColor = UIColor(red:0.27, green:0.27, blue:0.27, alpha:1.0) //darkish
     
     //static var defaulTextColor = UIColor(red:0.18, green:0.18, blue:0.18, alpha:1.0)
-    */
-   
+    
+   */
     
     //MARK: Color Schemes n' Themes
     
