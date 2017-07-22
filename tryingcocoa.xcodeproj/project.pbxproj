@@ -17,6 +17,7 @@
 		8A706F5B1F1F15230014CB0A /* home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A706F5A1F1F15230014CB0A /* home.storyboard */; };
 		8A706F5D1F1F15420014CB0A /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A706F5C1F1F15420014CB0A /* homeViewController.swift */; };
 		8A706F5F1F1F163F0014CB0A /* welcomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A706F5E1F1F163F0014CB0A /* welcomeScreenViewController.swift */; };
+		8A756C231F230150003F4BE0 /* CardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A756C221F230150003F4BE0 /* CardView.xib */; };
 		8ABD2FDA1F1EF0AE0018DD96 /* newHabitScreenDraft.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ABD2FD91F1EF0AE0018DD96 /* newHabitScreenDraft.storyboard */; };
 		8ABD2FE01F1EFFFE0018DD96 /* newHabitScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABD2FDD1F1EFFFE0018DD96 /* newHabitScreenViewController.swift */; };
 		8ABD2FE11F1EFFFE0018DD96 /* SettingsPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ABD2FDE1F1EFFFE0018DD96 /* SettingsPage.storyboard */; };
@@ -40,6 +41,7 @@
 		8A706F5A1F1F15230014CB0A /* home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = home.storyboard; sourceTree = "<group>"; };
 		8A706F5C1F1F15420014CB0A /* homeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
 		8A706F5E1F1F163F0014CB0A /* welcomeScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = welcomeScreenViewController.swift; path = ../welcomeScreenViewController.swift; sourceTree = "<group>"; };
+		8A756C221F230150003F4BE0 /* CardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardView.xib; sourceTree = "<group>"; };
 		8ABD2FD91F1EF0AE0018DD96 /* newHabitScreenDraft.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = newHabitScreenDraft.storyboard; path = ../newHabitScreenDraft.storyboard; sourceTree = "<group>"; };
 		8ABD2FDD1F1EFFFE0018DD96 /* newHabitScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = newHabitScreenViewController.swift; path = ../newHabitScreenViewController.swift; sourceTree = "<group>"; };
 		8ABD2FDE1F1EFFFE0018DD96 /* SettingsPage.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SettingsPage.storyboard; path = ../SettingsPage.storyboard; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				8A706F5C1F1F15420014CB0A /* homeViewController.swift */,
 				8A2B3B811F1D369000743DB4 /* ViewController.swift */,
 				8A2B3B831F1D369000743DB4 /* Main.storyboard */,
+				8A756C221F230150003F4BE0 /* CardView.xib */,
 				8A2B3B861F1D369000743DB4 /* Assets.xcassets */,
 				8A2B3B881F1D369000743DB4 /* LaunchScreen.storyboard */,
 				8A2B3B8B1F1D369000743DB4 /* Info.plist */,
@@ -199,6 +202,7 @@
 				8A2B3B871F1D369000743DB4 /* Assets.xcassets in Resources */,
 				8A2B3B851F1D369000743DB4 /* Main.storyboard in Resources */,
 				8ABD2FE71F1F10180018DD96 /* settings+appearanceScreen.storyboard in Resources */,
+				8A756C231F230150003F4BE0 /* CardView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
