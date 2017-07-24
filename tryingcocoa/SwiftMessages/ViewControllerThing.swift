@@ -11,9 +11,15 @@ import UIKit
 
 class ViewControllerThing: UIViewController {
     
-    let myWiew = MessageView.viewFromNib(layout: .CardView)
     
-
+    
+    
+    
+    
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

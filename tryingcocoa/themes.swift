@@ -52,6 +52,7 @@ struct Style {
     static var sideMenuBackgroundColor =
         UIColor(red:0.89, green:0.89, blue:0.89, alpha:0.75)
     
+
     //MARK: DARK THEME
     static func darkTheme() {
         self.userInputTextColor = UIColor(red:0.55, green:0.55, blue:0.55, alpha:1.0)
