@@ -18,6 +18,7 @@
 		8A706F5D1F1F15420014CB0A /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A706F5C1F1F15420014CB0A /* homeViewController.swift */; };
 		8A706F5F1F1F163F0014CB0A /* welcomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A706F5E1F1F163F0014CB0A /* welcomeScreenViewController.swift */; };
 		8A756C231F230150003F4BE0 /* CardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A756C221F230150003F4BE0 /* CardView.xib */; };
+		8A756C271F230472003F4BE0 /* ViewControllerThing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A756C261F230472003F4BE0 /* ViewControllerThing.swift */; };
 		8ABD2FDA1F1EF0AE0018DD96 /* newHabitScreenDraft.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ABD2FD91F1EF0AE0018DD96 /* newHabitScreenDraft.storyboard */; };
 		8ABD2FE01F1EFFFE0018DD96 /* newHabitScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABD2FDD1F1EFFFE0018DD96 /* newHabitScreenViewController.swift */; };
 		8ABD2FE11F1EFFFE0018DD96 /* SettingsPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ABD2FDE1F1EFFFE0018DD96 /* SettingsPage.storyboard */; };
@@ -74,6 +75,7 @@
 		8A706F5C1F1F15420014CB0A /* homeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
 		8A706F5E1F1F163F0014CB0A /* welcomeScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = welcomeScreenViewController.swift; path = ../welcomeScreenViewController.swift; sourceTree = "<group>"; };
 		8A756C221F230150003F4BE0 /* CardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardView.xib; sourceTree = "<group>"; };
+		8A756C261F230472003F4BE0 /* ViewControllerThing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerThing.swift; sourceTree = "<group>"; };
 		8ABD2FD91F1EF0AE0018DD96 /* newHabitScreenDraft.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = newHabitScreenDraft.storyboard; path = ../newHabitScreenDraft.storyboard; sourceTree = "<group>"; };
 		8ABD2FDD1F1EFFFE0018DD96 /* newHabitScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = newHabitScreenViewController.swift; path = ../newHabitScreenViewController.swift; sourceTree = "<group>"; };
 		8ABD2FDE1F1EFFFE0018DD96 /* SettingsPage.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SettingsPage.storyboard; path = ../SettingsPage.storyboard; sourceTree = "<group>"; };
@@ -159,18 +161,11 @@
 		8A2B3B7E1F1D369000743DB4 /* tryingcocoa */ = {
 			isa = PBXGroup;
 			children = (
-				8ACDC0B81F21BD9C007A24A4 /* aboutTheDev.storyboard */,
-				8ACDC0B91F21BD9C007A24A4 /* aboutTheDevViewController.swift */,
 				8ACDC0791F21BC5E007A24A4 /* SwiftMessages */,
-				8A706F5E1F1F163F0014CB0A /* welcomeScreenViewController.swift */,
-				8ABE78C01F216A7000075C6A /* SwiftMessages */,
-				8ABD2FDD1F1EFFFE0018DD96 /* newHabitScreenViewController.swift */,
-				8ABD2FD91F1EF0AE0018DD96 /* newHabitScreenDraft.storyboard */,
-				8A642C4C1F204F70007078F4 /* welcomeScreen.storyboard */,
+				8A756C241F230244003F4BE0 /* View Controllers */,
+				8A756C251F230257003F4BE0 /* Storyboards */,
 				8A8A991E1F2162E2007E8BA1 /* Settings */,
 				8A2B3B7F1F1D369000743DB4 /* AppDelegate.swift */,
-				8A706F5A1F1F15230014CB0A /* home.storyboard */,
-				8A706F5C1F1F15420014CB0A /* homeViewController.swift */,
 				8A2B3B811F1D369000743DB4 /* ViewController.swift */,
 				8A2B3B831F1D369000743DB4 /* Main.storyboard */,
 				8A756C221F230150003F4BE0 /* CardView.xib */,
@@ -179,6 +174,28 @@
 				8A2B3B8B1F1D369000743DB4 /* Info.plist */,
 			);
 			path = tryingcocoa;
+			sourceTree = "<group>";
+		};
+		8A756C241F230244003F4BE0 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8A706F5E1F1F163F0014CB0A /* welcomeScreenViewController.swift */,
+				8ACDC0B91F21BD9C007A24A4 /* aboutTheDevViewController.swift */,
+				8A706F5C1F1F15420014CB0A /* homeViewController.swift */,
+				8ABD2FDD1F1EFFFE0018DD96 /* newHabitScreenViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		8A756C251F230257003F4BE0 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				8ABD2FD91F1EF0AE0018DD96 /* newHabitScreenDraft.storyboard */,
+				8ACDC0B81F21BD9C007A24A4 /* aboutTheDev.storyboard */,
+				8A706F5A1F1F15230014CB0A /* home.storyboard */,
+				8A642C4C1F204F70007078F4 /* welcomeScreen.storyboard */,
+			);
+			name = Storyboards;
 			sourceTree = "<group>";
 		};
 		8A8A991E1F2162E2007E8BA1 /* Settings */ = {
@@ -191,13 +208,6 @@
 				8A2300991F1D555800F12265 /* themes.swift */,
 			);
 			name = Settings;
-			sourceTree = "<group>";
-		};
-		8ABE78C01F216A7000075C6A /* SwiftMessages */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = SwiftMessages;
 			sourceTree = "<group>";
 		};
 		8ACDC0791F21BC5E007A24A4 /* SwiftMessages */ = {
@@ -228,6 +238,7 @@
 				8ACDC0971F21BC5E007A24A4 /* UIViewController+Utils.swift */,
 				8ACDC0981F21BC5E007A24A4 /* Weak.swift */,
 				8ACDC0991F21BC5E007A24A4 /* WindowViewController.swift */,
+				8A756C261F230472003F4BE0 /* ViewControllerThing.swift */,
 			);
 			path = SwiftMessages;
 			sourceTree = "<group>";
@@ -405,6 +416,7 @@
 				8ACDC09C1F21BC5E007A24A4 /* Array+Utils.swift in Sources */,
 				8ACDC0AA1F21BC5E007A24A4 /* Presenter.swift in Sources */,
 				8ACDC0B71F21BC5E007A24A4 /* WindowViewController.swift in Sources */,
+				8A756C271F230472003F4BE0 /* ViewControllerThing.swift in Sources */,
 				8ACDC0B41F21BC5E007A24A4 /* TopBottomAnimation.swift in Sources */,
 				8ACDC0A71F21BC5E007A24A4 /* PassthroughView.swift in Sources */,
 				8ACDC0B51F21BC5E007A24A4 /* UIViewController+Utils.swift in Sources */,

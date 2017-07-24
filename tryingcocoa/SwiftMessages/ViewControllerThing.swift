@@ -1,29 +1,17 @@
 //
-//  settings+AppearanceViewController.swift
-//  
+//  ViewControllerThing.swift
+//  tryingcocoa
 //
-//  Created by Developer on 7/18/17.
-//
+//  Created by Developer on 7/21/17.
+//  Copyright © 2017 person. All rights reserved.
 //
 
 import UIKit
 
-class settings_AppearanceViewController: UIViewController {
+
+class ViewControllerThing: UIViewController {
     
-    //MARK: Outlets
-    
-    @IBOutlet weak var themesLabel: UILabel!
-    
-    //MARK: Actions/buttons
-    
-    @IBOutlet weak var lightThemeButton: UIButton!
-    
-    @IBOutlet weak var darkThemeButton: UIButton!
-    
-    @IBOutlet weak var otherThemeButton: UIButton!
-   
-    
-    
+    let myWiew = MessageView.viewFromNib(layout: .CardView)
     
 
     override func viewDidLoad() {
